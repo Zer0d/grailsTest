@@ -17,7 +17,7 @@ production {
 		dbCreate='update'
 		url='jdbc:mysql://localhost/zeroddbname?useUnicode=yes&characterEncoding=UTF-8'
 		driverClassName='com.mysql.jdbc.Driver'
-		dialect='org.hibernate.dialect.MySQL5InnoDBDialect'
+		dialect=org.hibernate.dialect.MySQL5InnoDBDialect
 		username='zerodusername'
 		password='zerodpassword'
 		properties {
